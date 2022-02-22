@@ -1,0 +1,147 @@
+body{
+    margin:0;
+    padding:0;
+    
+}
+.nav1{
+    background:#1e3770 ;
+    padding: 0 100px 0 100px;
+    color:#fff;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 300px;
+    height:60px;
+   
+   
+}
+.nav2{
+    background:#fff ;
+    padding: 0 100px 0 100px;
+    color:blue;
+    overflow: hidden;
+    font-size: 16px;
+    font-weight: 300px;
+   
+   
+}
+
+.nav1 li , .nav2 li{
+    list-style: none;
+    float:left;
+    margin-bottom: 10px;
+    display: block;
+ 
+}
+
+.nav1 li p , .nav2 li p{
+    margin-top:5px;
+}
+.nav1 li img{
+    margin-top:-8px;
+}
+
+  .nav1 li.nav-item{
+      align-items: center;
+      margin-left:10px;
+      margin-right:10px;
+  }
+  .nav1 li.nav-item img{
+      width:50px;
+      height:50px;
+  }
+  .nav1 .verify{
+      padding-left:250px;
+  }
+    .nav1 .A button{
+        border: 1px solid #fff;  
+      background: none;
+      color:#fff;
+     margin: 0px 4px;
+     padding: 5px 8px;
+  } 
+
+  .nav1 select {
+      border:none;
+      padding:5px;
+      background: none;
+      color:#fff;
+      margin: 0px 0px;
+  }
+
+.cowin-image {
+    height:50px;
+    width:200px;
+}
+
+.cowin-image img{
+    height:100%;
+    width:100%;
+    margin-right:100px;
+}
+.nav2 .dropdown{
+    margin-left:400px;
+}
+.nav2 li.nav-item{
+    margin-left:10px;
+    
+}
+
+.nav2 select{
+    border:none;
+    padding:5px;
+    background: none;
+    color:#001f60;
+    margin: 8px 0px;
+    
+}
+.nav2 select option{
+    font-weight:500 ;
+}
+.nav2{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+}
+.center{
+    position:absolute;
+    top:45%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+     width: 550px; 
+    background-color:#f1f1f1;
+    padding:30px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    border-bottom: 1px solid #001f60 ;
+}
+
+.family-image{
+    
+    display: flex;
+    justify-content: center;
+
+}
+.center h2{
+    padding-left:225px;
+    padding-right:200px;
+}
+.center p{
+    padding-left: 100px;
+}
+.center button{
+  margin-left: 200px;
+  padding:10px 30px 10px 30px;
+  background-color:#001f60 ;
+  color:#fff;
+  border-radius: 7px;
+  border:none;
+}
+
+.center2{
+    position:absolute;
+    top:82%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+     width: 550px; 
+    background-color:#f1f1f1;
+    padding:30px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  
+}
